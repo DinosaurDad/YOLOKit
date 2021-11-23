@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "YOLOKit",
+    platforms: [
+      .iOS(.v12)
+    ],
     products: [
         .library(
           name: "YOLOKit",
